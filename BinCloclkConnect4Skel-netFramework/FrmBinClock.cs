@@ -64,6 +64,7 @@ namespace BinCloclkConnect4Skel_netFramework
             BlockDisplay("lblhr1b", denToBin(binh1));
             BlockDisplay("lblhr2b", denToBin(bins2));
 
+            Console.WriteLine("Hello world");
             //lblBinh1.Text = binStr;
             //lblBinh2.Text = binStr;
             //lblBinm1.Text = binStr;
