@@ -538,6 +538,7 @@
             this.btncol6.TabIndex = 147;
             this.btncol6.Text = "Drop";
             this.btncol6.UseVisualStyleBackColor = false;
+            this.btncol6.Click += new System.EventHandler(this.btncol6_Click);
             // 
             // btncol5
             // 
@@ -548,6 +549,7 @@
             this.btncol5.TabIndex = 146;
             this.btncol5.Text = "Drop";
             this.btncol5.UseVisualStyleBackColor = false;
+            this.btncol5.Click += new System.EventHandler(this.btncol5_Click);
             // 
             // btncol4
             // 
@@ -558,6 +560,7 @@
             this.btncol4.TabIndex = 145;
             this.btncol4.Text = "Drop";
             this.btncol4.UseVisualStyleBackColor = false;
+            this.btncol4.Click += new System.EventHandler(this.btncol4_Click);
             // 
             // btncol3
             // 
@@ -568,6 +571,7 @@
             this.btncol3.TabIndex = 144;
             this.btncol3.Text = "Drop";
             this.btncol3.UseVisualStyleBackColor = false;
+            this.btncol3.Click += new System.EventHandler(this.btncol3_Click);
             // 
             // btncol2
             // 
@@ -578,6 +582,7 @@
             this.btncol2.TabIndex = 143;
             this.btncol2.Text = "Drop";
             this.btncol2.UseVisualStyleBackColor = false;
+            this.btncol2.Click += new System.EventHandler(this.btncol2_Click);
             // 
             // btncol1
             // 
@@ -588,6 +593,7 @@
             this.btncol1.TabIndex = 142;
             this.btncol1.Text = "Drop";
             this.btncol1.UseVisualStyleBackColor = false;
+            this.btncol1.Click += new System.EventHandler(this.btncol1_Click);
             // 
             // btncol0
             // 
@@ -598,8 +604,9 @@
             this.btncol0.TabIndex = 141;
             this.btncol0.Text = "Drop";
             this.btncol0.UseVisualStyleBackColor = false;
+            this.btncol0.Click += new System.EventHandler(this.btncol0_Click);
             // 
-            // Form1
+            // FrmConnect4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -655,8 +662,9 @@
             this.Controls.Add(this.btncol2);
             this.Controls.Add(this.btncol1);
             this.Controls.Add(this.btncol0);
-            this.Name = "Form1";
+            this.Name = "FrmConnect4";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmConnect4_Load);
             this.GroupBox1.ResumeLayout(false);
             this.GroupBox1.PerformLayout();
             this.ResumeLayout(false);
