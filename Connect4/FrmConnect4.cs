@@ -207,7 +207,7 @@ namespace Connect4
                         {
                         MessageBox.Show(winnerColor + " is the winner");
                         }
-                        else if (CheckDiag(col, row) == true)
+                        else if (CheckDiag(col, row) == true) //
                         {
                         MessageBox.Show(winnerColor + " is the winner");
                         }
