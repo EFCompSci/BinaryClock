@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbl56 = new System.Windows.Forms.Label();
             this.lbl55 = new System.Windows.Forms.Label();
             this.lbl54 = new System.Windows.Forms.Label();
@@ -83,6 +84,7 @@
             this.btncol2 = new System.Windows.Forms.Button();
             this.btncol1 = new System.Windows.Forms.Button();
             this.btncol0 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -606,6 +608,10 @@
             this.btncol0.UseVisualStyleBackColor = false;
             this.btncol0.Click += new System.EventHandler(this.btncol0_Click);
             // 
+            // timer1
+            // 
+            
+            // 
             // FrmConnect4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -729,6 +735,7 @@
         internal System.Windows.Forms.Button btncol2;
         internal System.Windows.Forms.Button btncol1;
         internal System.Windows.Forms.Button btncol0;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
